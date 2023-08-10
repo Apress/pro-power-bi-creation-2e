@@ -1,0 +1,239 @@
+{
+"name": "100 % Stacked Column Chart Attributes. Taken from Power BI Themes Creation - Second Edition (Apress 2023)",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	"hundredPercentStackedColumnChart":
+		{"*":
+			{
+			"categoryAxis": [{
+						"show": true,
+						"color": {"solid": {"color": "#949494"}},
+						"fontSize": 8,
+						"fontFamily": "Arial",
+						"bold": true,
+						"italic": false,
+						"underline": false,
+						"preferredCategoryWidth": 20,
+						"maxMarginFactor": 25,
+						"innerPadding": 15,
+						"concatenateLabels": true,
+						"showAxisTitle": true,
+						"axisStyle": "showTitleOnly",
+						"titleColor": {"solid": {"color": "#949494"}},
+						"titleText": "Add an Axis Title",
+						"titleFontSize": 8,
+						"titleFontFamily": "Arial",
+						"titleBold": true,
+						"titleItalic": false,
+						"titleUnderline": false,
+						"concatenateLabels": true
+					  }],
+			"valueAxis": [{
+						"show": true,
+						"position": "Left",
+						"start": 0,
+						"end": 0,
+						"labelColor": {"solid": {"color": "#949494"}},
+						"fontSize": 8,
+						"fontFamily": "Arial",
+						"bold": true,
+						"italic": false,
+						"underline": false,
+						"labelPrecision": 0,
+						"labelDisplayUnits": 0,
+						"showAxisTitle": true,
+						"axisStyle": "showTitleOnly",
+						"color": {"solid": {"color": "#949494"}},
+						"titleText": "Add an Axis Title",
+						"titleFontSize": 8,
+						"titleFontFamily": "Arial",
+						"titleBold": true,
+						"titleItalic": false,
+						"titleUnderline": false,
+						"gridLineShow": false,
+						"gridLineColor":  {"solid": {"color": "#949494"}},
+						"gridLineThickness": 1,
+						"gridlineStyle": "solid",
+						"invertAxis": false
+					}],
+			"legend": [{
+						"show": true,
+						"position": "Top",
+						"showTitle": true,
+						"titleText": "Add a legend title",
+						"legendColor": {"solid": {"color": "#949494"}},
+						"fontFamily": "Arial",
+						"fontSize": 8,
+						"bold": true,
+						"italic": false,
+						"underline": false												
+					  }],
+			"smallMultiplesLayout":	 [{	  
+						"rowCount": 3,
+						"columnCount": 3,
+						"gridPadding": 12,
+						"advancedPaddingOptions": true,
+						"columnPaddingOuter": 15,
+						"columnPaddingInner": 15,
+						"rowPaddingOuter": 15,
+						"rowPaddingInner": 15,
+						"gridLineType": "all",
+						"gridLineStyle": "dotted",
+						"gridLineColor": {"solid": {"color": "#949494"}},
+						"backgroundColor": {"solid": {"color": "#949494"}},
+						"backgroundTransparency": 20
+					  }],
+			"subheader":  [{
+						"position": "bottom",
+						"color": {"solid": {"color": "#949494"}},
+						"fontSize": 8,
+						"fontFamily": "Arial",
+						"bold": true,
+						"italic": false,
+						"underline": false,
+						"alignment": "center"						
+					  }],				"zoom":[{
+						"show":true,
+						"showLabels":true,
+						"showTooltip":true
+						}],
+			"labels": [{
+						"show": true,
+						"color": {"solid": {"color": "#ffffff"}},
+						"labelDisplayUnits": 1,
+						"labelPrecision": 2,
+						"labelOrientation": 0,
+						"labelPosition": "InsideEnd",
+						"labelOverflow": true,
+						"fontFamily": "Arial",
+						"fontSize": 7,
+						"enableBackground": false,
+						"backgroundColor": {"solid": {"color": "#949494"}},
+						"backgroundTransparency": 0
+					  }],
+			"plotArea": [{
+						"transparency": 0,
+						"scaling": "Fill"
+					  }],
+			"title":    [{
+						"show": true,
+						"text": "Textbox Title",
+						"heading": "Heading2",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "center",
+						"fontSize": 10,
+						"fontFamily": "Arial",
+						"bold": true,
+						"italic": false,
+						"underline": false,
+						"textWrap": true
+						}],
+			"subTitle":    [{
+						"show": true,
+						"text": "Textbox Subitle",
+						"heading": "Heading3",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "left",
+						"fontSize": 9,
+						"fontFamily": "Arial",
+						"bold": true,
+						"italic": false,
+						"underline": false,
+						"titleWrap": true
+						}],
+			"divider":    [{
+						"show": true,
+						"color": {"solid": {"color": "#615E55"}},
+						"style": "solid",
+						"width": 2,
+						"ignorePadding": true
+						}],
+			"spacing":  [{
+						"customizeSpacing": true,
+						"spaceBelowTitle": 3,
+						"spaceBelowSubTitle": 3,
+						"spaceBelowTitleArea": 2
+						}],
+			"background": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 0
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"radius": 5
+						}],
+			"dropShadow": 	[{
+						"show": false,
+						"color": {"solid": {"color": "#E8E8E8"}},
+						"position":"Outer",
+						"preset":"TopLeft"
+						}],
+			"visualHeaderTooltip":[{
+						"type": "Default",
+						"titleFontColor":{"solid":{"color":"#E34820"}},
+						"text": "Add a tooltip text for the visual here",
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#D1CAB8"}},
+						"transparency": 8,
+						"bold": true,
+						"italic": false,
+						"underline": false
+					}],
+			"visualHeader": [{ 
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true,
+						"showSmartNarrativeButton": false,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#ffffff"}},
+						"foreground": {"solid": {"color": "#D1CaBB"}},
+						"transparency": 10
+						}],
+			"visualTooltip":[{
+						"show": true,
+						"titleFontColor":{"solid":{"color":"#ffffff"}},
+						"valueFontColor":{"solid":{"color":"#FFFFFF"}},
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#D1CAB8"}},
+						"transparency": 8,
+						"bold": true,
+						"italic": false,
+						"underline": false
+						}],
+			"general":  [{
+						"responsive": true,
+						"altText": "Enter an alternative text" 
+						}],
+			"padding": [{
+						"left":3,
+						"right":3,
+						"top":3,
+						"bottom":3
+						}]
+			}
+		}
+	}
+}

@@ -1,0 +1,185 @@
+{
+"name": "Decomposition tree Attributes. Taken from Power BI Themes Creation - Second Edition (Apress 2023)",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	 "decompositionTreeVisual":
+		{"*":
+			{
+			"analysis": [{
+						"aiEnabled": true,
+						"aiMode": "relative"
+			}],
+			"tree": [{
+						"density": "sparse",
+						"accentColor": { "solid": { "color": "#F5F4F0"}},
+						"connectorDefaultColor": { "solid": { "color": "#118DFF"}},
+						"connectorType": "round",
+						"defaultClickAction": "toggle",
+						"responsiveLayout": true,
+						"barsPerLevel": 10
+			}],
+			"dataBars": [{
+						"positiveBarColor": { "solid": { "color": "#12239E"}},
+						"negativeBarColor": { "solid": { "color": "#DD001E"}},
+						"dataBarBackgroundColor": { "solid": { "color": "#118DFF"}},
+						"dataBarWidthPercent": 100,
+						"dataBarScalingType": "topNode",
+						"axisStart": 0,
+						"axisEnd": 0
+			}],
+			"categoryLabels": [{
+						"categoryLabelFontFamily": "Arial",
+						"categoryLabelFontSize": 12,
+						"categoryLabelFontColor": { "solid": { "color": "#808080"}},
+						"categoryLabelBold": true,
+						"categoryLabelItalic": false,
+						"categoryLabelUnderline": false
+			}],
+			"dataLabels": [{
+						"dataLabelFontFamily": "Arial",
+						"dataLabelBold": true,
+						"dataLabelItalic": false,
+						"dataLabelUnderline": false,
+						"dataLabelFontSize": 14,
+						"dataLabelFontColor": { "solid": { "color": "#808080"}},
+						"dataLabelDisplayUnits": 1000,
+						"dataLabelPrecision": 1
+			}],
+			"levelHeader": [{
+						"levelHeaderBackgroundColor": { "solid": { "color": "#000000"}},
+						"levelTitleFontFamily": "Arial",
+						"levelTitleBold": true,
+						"levelTitleItalic": false,
+						"levelTitleUnderline": false,
+						"levelTitleFontSize": 20,
+						"levelTitleFontColor": { "solid": { "color": "#808080"}},
+						"showSubtitles": false,
+						"levelSubtitleFontColor": { "solid": { "color": "#FFFFFF"}},
+						"levelSubtitleFontFamily": "Arial",
+						"levelSubtitleBold": true,
+						"levelSubtitleItalic": false,
+						"levelSubtitleUnderline": false,
+						"levelSubtitleFontSize": 18
+			}],
+			"title":    [{
+						"show": true,
+						"text": "Textbox Title",
+						"heading": "Heading2",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "center",
+						"fontSize": 10,
+						"fontFamily": "Arial",
+						"bold": true,
+						"italic": false,
+						"underline": false,
+						"textWrap": true
+						}],
+			"subTitle":    [{
+						"show": true,
+						"text": "Textbox Subitle",
+						"heading": "Heading3",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "left",
+						"fontSize": 9,
+						"fontFamily": "Arial",
+						"bold": true,
+						"italic": false,
+						"underline": false,
+						"titleWrap": true
+						}],
+			"divider":    [{
+						"show": true,
+						"color": {"solid": {"color": "#615E55"}},
+						"style": "solid",
+						"width": 2,
+						"ignorePadding": true
+						}],
+			"spacing":  [{
+						"customizeSpacing": true,
+						"spaceBelowTitle": 3,
+						"spaceBelowSubTitle": 3,
+						"spaceBelowTitleArea": 2
+						}],
+			"background": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 0
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"radius": 5
+						}],
+			"dropShadow": 	[{
+						"show": false,
+						"color": {"solid": {"color": "#E8E8E8"}},
+						"position":"Outer",
+						"preset":"TopLeft"
+						}],
+			"visualHeaderTooltip":[{
+						"type": "Default",
+						"titleFontColor":{"solid":{"color":"#E34820"}},
+						"text": "Add a tooltip text for the visual here",
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#D1CAB8"}},
+						"transparency": 8,
+						"bold": true,
+						"italic": false,
+						"underline": false
+					}],
+			"visualHeader": [{ 
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true,
+						"showSmartNarrativeButton": false,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#ffffff"}},
+						"foreground": {"solid": {"color": "#D1CaBB"}},
+						"transparency": 10
+						}],
+			"visualTooltip":[{
+						"show": true,
+						"titleFontColor":{"solid":{"color":"#ffffff"}},
+						"valueFontColor":{"solid":{"color":"#FFFFFF"}},
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#D1CAB8"}},
+						"transparency": 8,
+						"bold": true,
+						"italic": false,
+						"underline": false
+						}],
+			"general":  [{
+						"responsive": true,
+						"altText": "Enter an alternative text" 
+						}],
+			"padding": [{
+						"left":3,
+						"right":3,
+						"top":3,
+						"bottom":3
+						}]
+			}
+		}
+	}
+}
